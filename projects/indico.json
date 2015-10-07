@@ -1,0 +1,8 @@
+{
+    "title": "indico",
+    "text": "I was a software engineering intern at indico the summer of 2015. Indico is looking to democratize the power of machine learning by providing cutting edge quality pretrained models at a sane prices. While there I got to design backend infrasture, make dev ops tools, and make machine learning models that actually get used in production",
+    "image": "indico.png",
+    "links": [
+        {"type":"other", "label":"Website", "link":"https://indico.io/"}
+    ]
+}

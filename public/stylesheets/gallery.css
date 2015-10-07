@@ -1,0 +1,29 @@
+.home {
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    flex:2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+@media (min-width: 401px) {
+    .parent {
+        font-weight: 400;
+        font-size: 450%;
+    }
+}
+
+@media (max-width: 400px) {
+    .parent {
+        font-weight: 400;
+        font-size: x-large;
+    }
+}
