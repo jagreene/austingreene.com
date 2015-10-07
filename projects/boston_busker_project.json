@@ -1,6 +1,6 @@
 {
     "title": "Boston Busker Initiative",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "text": "The Boston Busker Project is the culmination of a semester long course in user oriented collaborative design. Our goal was to try and design a product that would dramatically change the lives of street performers in the Boston area. In the end we designed a competition by which local architectural designers could create stages for performers through out the city. These stages would not only enhance the beauty of the city but also legitimize and elevate being a busker in Boston.",
     "image": "Busker.png",
     "links": [
         {"type":"other", "label":"Website", "link":"http://srli.github.io/busking_initiative/"}
