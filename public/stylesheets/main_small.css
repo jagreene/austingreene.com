@@ -83,7 +83,7 @@
 
     .detail-text{
         overflow-y: auto;
-        max-height: calc(55vh - 40vh - 36px);
+        max-height: calc(50vh - 40vh - 36px);
         margin: 5px 0;
     }
 
