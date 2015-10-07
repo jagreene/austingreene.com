@@ -1,7 +1,7 @@
 module.exports = [
     "By Typing a Lot",
     "With Cameras",
-    "For Users"
+    "For Users",
     "With Users",
     "With Robots",
     "For Robots",
