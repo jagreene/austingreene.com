@@ -17,6 +17,8 @@
 
 .dec-text {
     text-align: center;
+    transition: width 2s;
+    transition-timing-function: ease;
 }
 
 @media (min-width: 401px) {
