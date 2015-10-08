@@ -103,7 +103,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         margin: 5px 0;
-        overflow-y: auto;
+        overflow-y: scroll;
         align-items: flex-start;
     }
 

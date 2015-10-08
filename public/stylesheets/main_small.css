@@ -78,7 +78,10 @@
         margin: 0 auto;
     }
 
-    .detail-actions{
+    .key{
+        font-weight: bold;
+        display: inline;
+        font-size: 20px !important;
     }
 
     .detail-text{
@@ -103,6 +106,4 @@
         width: 20vw;
     }
 
-    .project-img{
-    }
 }
