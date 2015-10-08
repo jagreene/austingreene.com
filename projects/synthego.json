@@ -1,6 +1,8 @@
 {
     "title": "Synthego",
     "text": "I was an engineering intern at Synthego the summer of 2014. While there I designed and integrated novel automated instruments for a robotic bio-tech pipeline. I worked on both the mechanical design of real products as well as programming them to work as part of a larger ecosystem. The mechanical design was primarily done in solidworks while programming was done in python.",
+    "when": "2014",
+    "where": "Silicon Valley",
     "image": "synthego.png",
     "links": [
         {"type":"other", "label":"Website", "link":"http://www.synthego.com/"}

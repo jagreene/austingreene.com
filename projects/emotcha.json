@@ -6,5 +6,8 @@
         {"type":"github", "label":"github", "link":"https://github.com/jagreene/Emotcha"},
         {"type":"other", "label":"devpost", "link":"http://devpost.com/software/emotcha#updates"},
         {"type":"other", "label":"devpost", "link":"http://emotcha.herokuapp.com/"}
-    ]
+    ],
+    "when": "2015",
+    "where": "indico"
+
 }

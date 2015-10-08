@@ -39406,7 +39406,7 @@ Declaration = React.createClass({displayName: "Declaration",
     console.log(this.state.declaration);
     return (
       React.createElement("div", {className: "declaration"}, 
-        React.createElement("h1", null, 
+        React.createElement("h1", {className: "dec-text"}, 
           "I Make Things ", this.state.declaration
         )
       )

@@ -3,7 +3,7 @@
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
     del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
+    small, strike, sub, sup, tt, var,
     b, u, i, center,
     dl, dt, dd, ol, ul, li,
     fieldset, form, label, legend,
@@ -70,7 +70,8 @@
 
     .detail-img{
         display: block;
-        max-height: 40vh;
+        min-height: 40vh;
+        max-height: 60vh;
         min-width: 0 !important;
         margin: 0 auto;
     }
@@ -86,12 +87,21 @@
         max-height: calc(100vh - 7.5vh - 35px - 50px);
     }
 
+    .detail-info{
+        margin-bottom: 5px;
+    }
+    .key{
+        font-weight: bold;
+        display: inline;
+        font-size: 20px !important;
+    }
+
     .project-matrix{
         display: flex;
         flex-direction: row;
         flex-basis: 60%;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: flex-start;
         margin: 5px 0;
         overflow-y: auto;
         align-items: flex-start;

@@ -4,5 +4,8 @@
     "image": "Busker.png",
     "links": [
         {"type":"other", "label":"Website", "link":"http://srli.github.io/busking_initiative/"}
-    ]
+    ],
+    "when": "2015",
+    "where": "Olin"
+
 }

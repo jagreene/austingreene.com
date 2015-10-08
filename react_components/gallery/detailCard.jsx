@@ -45,7 +45,12 @@ DetailCard = React.createClass({
           <img className='detail-img' src={"images/full/"+this.props.project.image}/>
         </CardMedia>
         <CardText className="detail-text" style={textStyle}>
-          {this.props.project.text}
+          <pre className="detail-info">
+            <div className="key">Where:</div> {this.props.project.where}      <div className="key">When:</div> {this.props.project.when}
+          </pre>
+          <div className="detail-description">
+            {this.props.project.text}
+          </div>
         </CardText>
         <CardActions className="detail-actions">
           {buttonNodes}

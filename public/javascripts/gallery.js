@@ -39410,7 +39410,12 @@ DetailCard = React.createClass({displayName: "DetailCard",
           React.createElement("img", {className: "detail-img", src: "images/full/"+this.props.project.image})
         ), 
         React.createElement(CardText, {className: "detail-text", style: textStyle}, 
-          this.props.project.text
+          React.createElement("pre", {className: "detail-info"}, 
+            React.createElement("div", {className: "key"}, "Where:"), " ", this.props.project.where, "      ", React.createElement("div", {className: "key"}, "When:"), " ", this.props.project.when
+          ), 
+          React.createElement("div", {className: "detail-description"}, 
+            this.props.project.text
+          )
         ), 
         React.createElement(CardActions, {className: "detail-actions"}, 
           buttonNodes

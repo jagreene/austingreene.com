@@ -4,5 +4,7 @@
     "image": "bLOCK.png",
     "links": [
         {"type":"other", "label":"Website", "link":"http://poe.olin.edu/poe2014/bikesmart/"}
-    ]
+    ],
+    "when": "2014",
+    "where": "Olin"
 }

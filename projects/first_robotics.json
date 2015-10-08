@@ -1,6 +1,8 @@
 {
     "title": "First Robotics",
     "text": "I was the team captain and programming lead for my local FIRST Robotics team, 'The Raging Sea-Biscuits' from 2010 to 2013. Our robots were programmed in C++ with effective autonomous and user controlled modes. Robots had a range of features including playing a modified version of ultimate frisbee and basketball as well as shooting off miniature robots and balancing on bridges. I have continued to serve as a programming mentor for my team while studying at Olin",
+    "when": "2014",
+    "where": "SRVHS",
     "image": "FRC.png",
     "links": [
         {"type":"github", "label":"github", "link":"https://github.com/FRC1280"}
