@@ -10,9 +10,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     font-family: 'Playfair Display', serif;
     text-align: center;
+    font-weight: 400;
+    font-size: 450%;
 }
 
 .dec-text {
@@ -23,14 +24,25 @@
 
 @media (min-width: 401px) {
     .parent {
+        align-items: flex-start;
+        background-image: url('../images/portrait_bw.svg');
+        background-size: cover;
         font-weight: 400;
-        font-size: 450%;
+        font-size: 600%;
+        color: #212121;
+    }
+    .declaration {
+        margin-left: 10vw;
     }
 }
 
 @media (max-width: 400px) {
     .parent {
+        align-items: center;
+        background-image: url('../images/portrait_bw_mobile.svg');
+        background-size: cover;
         font-weight: 400;
-        font-size: x-large;
+        font-size: 350%;
+        color: #FFFAFA;
     }
 }

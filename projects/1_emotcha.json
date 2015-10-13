@@ -1,0 +1,13 @@
+{
+    "title": "Emotcha",
+    "text": "Emotcha is a proof of concept for a captcha alternative I developed for a devpost hackathon, Reinvent the Selfie. Conventional captcha's try and separate humans from robots using hard to read squigliy text; Emotcha uses a truely human charateristic, emotions, to find humans. It works by showing users a picture of a persons face and live feed of their own face from their webcam. Users must then try and match their emotions to the emotions of the example to unlock a mock login dialogue. This project won both the All you can EaaS prize and Twilio Grand Prize.",
+    "image": "mosaic2.png",
+    "links": [
+        {"type":"github", "label":"github", "link":"https://github.com/jagreene/Emotcha"},
+        {"type":"other", "label":"devpost", "link":"http://devpost.com/software/emotcha#updates"},
+        {"type":"other", "label":"devpost", "link":"http://emotcha.herokuapp.com/"}
+    ],
+    "when": "2015",
+    "where": "indico"
+
+}

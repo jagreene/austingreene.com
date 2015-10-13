@@ -7,8 +7,8 @@ module.exports = [
     "For Robots",
     "Pythonically",
     "In the Shop",
-    "Highly Caffeinated",
-    "Very Late at Night",
+    "Caffeinated",
+    "Late at Night",
     "With Pointers",
     "Functionally"
 ]

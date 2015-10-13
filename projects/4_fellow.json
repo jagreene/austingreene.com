@@ -3,9 +3,8 @@
      "text": "While there I found, integrated, and programmed libraries for sensors intended for a tele-presence robotics platform. The sensor solutions are still in use over two years later on the recently released Oshbot robot. Programming was done in C++.",
      "when": "2012",
      "where": "NASA Aimes",
-     "image": "fellow.png",
+     "image": "fellow.svg",
      "links": [
-          {"type":"github", "label":"github", "link":"github.com"},
-          {"type":"other", "label":"google", "link":"google.com"}
+          {"type":"other", "label":"website", "link":"http://fellowrobots.com/"}
     ]
 }

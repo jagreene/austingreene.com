@@ -42,7 +42,7 @@ Declaration = React.createClass({
     return (
       <div className="declaration">
         <h1 className="dec-text">
-          I Make Things {this.state.declaration}
+          I Make Things <br />{this.state.declaration}
         </h1>
       </div>
     )
