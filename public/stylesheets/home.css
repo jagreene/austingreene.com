@@ -22,7 +22,7 @@
     transition-timing-function: ease;
 }
 
-@media (min-width: 415px) {
+@media (min-width: 401px) {
     .parent {
         align-items: flex-start;
         background-image: url('../images/portrait_bw.svg');
@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 400px) {
     .parent {
         align-items: center;
         background-image: url('../images/portrait_bw_mobile.svg');
