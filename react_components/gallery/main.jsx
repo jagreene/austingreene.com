@@ -94,8 +94,8 @@ var Main = React.createClass({
         <AppBar
           title="Austin Greene"
           style={appBarStyle}
-          iconElementLeft={<IconButton tooltip="Home" tooltipPosition="bottom-right" onClick={this.onBackwardClick}><FontIcon className="typcn typcn-home"/></IconButton>}
-          iconElementRight={<IconButton tooltip="Resume" tooltipPosition="bottom-left" onClick={this.onForwardClick}><FontIcon className="typcn typcn-document-text"/></IconButton>}
+          iconElementLeft={<IconButton onClick={this.onBackwardClick}><FontIcon className="typcn typcn-media-play-reverse"/></IconButton>}
+          iconElementRight={<IconButton onClick={this.onForwardClick}><FontIcon className="typcn typcn-media-play"/></IconButton>}
           onLeftIconButtonTouchTap={this.onBackwardClick}
           onRightIconButtonTouchTap={this.onForwardClick}
         />
