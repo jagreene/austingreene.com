@@ -20,7 +20,8 @@
     "passport-facebook": "^1.0.3",
     "react": "^0.13.3",
     "react-tap-event-plugin": "^0.1.7",
-    "reactify": "^1.1.1"
+    "reactify": "^1.1.1",
+    "fbjs": "^0.2.1"
   },
   "devDependencies": {},
   "scripts": {
