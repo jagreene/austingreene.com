@@ -13273,6 +13273,7 @@ var Tabs = React.createClass({
 });
 
 module.exports = Tabs;
+
 },{"../ink-bar":37,"../mixins/style-propable":54,"../utils/events":129,"./tabTemplate":100,"react/addons":141}],102:[function(require,module,exports){
 (function (process){
 'use strict';
@@ -39524,8 +39525,8 @@ var Main = React.createClass({displayName: "Main",
         React.createElement(AppBar, {
           title: "Austin Greene", 
           style: appBarStyle, 
-          iconElementLeft: React.createElement(IconButton, {onClick: this.onBackwardClick}, React.createElement(FontIcon, {className: "typcn typcn-media-play-reverse"})), 
-          iconElementRight: React.createElement(IconButton, {onClick: this.onForwardClick}, React.createElement(FontIcon, {className: "typcn typcn-media-play"})), 
+          iconElementLeft: React.createElement(IconButton, {tooltip: "Home", tooltipPosition: "bottom-right", onClick: this.onBackwardClick}, React.createElement(FontIcon, {className: "typcn typcn-home"})), 
+          iconElementRight: React.createElement(IconButton, {tooltip: "Resume", tooltipPosition: "bottom-left", onClick: this.onForwardClick}, React.createElement(FontIcon, {className: "typcn typcn-document-text"})), 
           onLeftIconButtonTouchTap: this.onBackwardClick, 
           onRightIconButtonTouchTap: this.onForwardClick}
         ), 
