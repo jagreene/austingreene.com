@@ -39458,7 +39458,7 @@ var Main = React.createClass({displayName: "Main",
   },
 
 
-  getChildContext() {
+  getChildContex: function() {
     return {
       muiTheme: ThemeManager.getCurrentTheme()
     };
@@ -39471,7 +39471,7 @@ var Main = React.createClass({displayName: "Main",
     }
   },
 
-  componentWillMount() {
+  componentWillMount: function() {
     ThemeManager.setPalette(palette)
     ThemeManager.setComponentThemes({
       appBar: {
