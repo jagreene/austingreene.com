@@ -25,7 +25,7 @@
 @media (min-width: 401px) {
     .parent {
         align-items: flex-start;
-        background-image: url('../images/portrait_bw.svg');
+        background-image: url('../images/portrait_bw.png');
         background-size: cover;
         font-weight: 400;
         font-size: 600%;
@@ -39,7 +39,7 @@
 @media (max-width: 400px) {
     .parent {
         align-items: center;
-        background-image: url('../images/portrait_bw_mobile.svg');
+        background-image: url('../images/portrait_bw_mobile.png');
         background-size: cover;
         font-weight: 400;
         font-size: 350%;
